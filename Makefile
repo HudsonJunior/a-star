@@ -7,7 +7,7 @@ help:
 
 
 all:
-	${PYTHON} -m py_compile main.py
+	${PYTHON} -m py_compile src/main.py
 
 run:
-	${PYTHON} main.py
+	${PYTHON} src/main.py
